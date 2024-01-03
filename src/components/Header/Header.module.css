@@ -34,6 +34,7 @@
 .productsContainer,
 .helpContainer {
   position: relative;
+  cursor: pointer;
 }
 
 .logos {

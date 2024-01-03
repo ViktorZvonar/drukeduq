@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "https://viktorzvonar.github.io/drukeduq/static/css/main.0581b4c8.css",
-    "main.js": "https://viktorzvonar.github.io/drukeduq/static/js/main.188569b9.js",
-    "static/media/eduq-logo-removebg-preview.png": "https://viktorzvonar.github.io/drukeduq/static/media/eduq-logo-removebg-preview.20e37da42a4696b37fe8.png",
-    "index.html": "https://viktorzvonar.github.io/drukeduq/index.html",
-    "main.0581b4c8.css.map": "https://viktorzvonar.github.io/drukeduq/static/css/main.0581b4c8.css.map",
-    "main.188569b9.js.map": "https://viktorzvonar.github.io/drukeduq/static/js/main.188569b9.js.map"
+    "main.css": "/drukeduq/static/css/main.0581b4c8.css",
+    "main.js": "/drukeduq/static/js/main.e7645465.js",
+    "static/media/eduq-logo-removebg-preview.png": "/drukeduq/static/media/eduq-logo-removebg-preview.20e37da42a4696b37fe8.png",
+    "index.html": "/drukeduq/index.html",
+    "main.0581b4c8.css.map": "/drukeduq/static/css/main.0581b4c8.css.map",
+    "main.e7645465.js.map": "/drukeduq/static/js/main.e7645465.js.map"
   },
   "entrypoints": [
     "static/css/main.0581b4c8.css",
-    "static/js/main.188569b9.js"
+    "static/js/main.e7645465.js"
   ]
 }

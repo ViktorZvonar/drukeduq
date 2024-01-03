@@ -1,0 +1,141 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3px;
+  background-color: #fef9f9;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+  padding: 10px;
+}
+
+.link {
+  color: #f8f9fa;
+  transition: all 0.3s ease;
+  background-color: #ff6600;
+  padding: 5px 20px;
+  text-align: start;
+}
+
+.link:hover {
+  color: #f8f9fa;
+  background-color: black;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.productsContainer,
+.helpContainer {
+  position: relative;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+}
+
+.logo1,
+.logo4 {
+  width: 12rem;
+  transition: all 0.3s ease;
+}
+
+.logo:hover,
+.logo:focus {
+  transform: scale(1.1);
+}
+
+.burgerMenuIcon {
+  cursor: pointer;
+  position: relative;
+}
+
+.menuDropdown {
+  cursor: pointer;
+  position: relative;
+}
+
+.naContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.dropdownContent {
+  display: flex;
+  z-index: 999;
+  flex-direction: column;
+  position: absolute;
+  top: 130%;
+  gap: 20px;
+  left: 0;
+  padding: 10px;
+  width: 150px;
+  background-color: #ff6600;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.additionalDropdown {
+  display: flex;
+  z-index: 999;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  top: 120%;
+  left: 0;
+  width: 230px;
+  background-color: #ff6600;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menuDropdown:hover .dropdownContent {
+  display: flex;
+}
+
+.linkWidth {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .logo1,
+  .logo4 {
+    width: 7rem;
+    height: 50%;
+  }
+}
+
+@media (max-width: 1279px) {
+  .menuDropdown:hover .dropdownContent,
+  .menuDropdown:focus-within .dropdownContent {
+    display: flex;
+  }
+}
+
+.backdrop {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(5px);
+  pointer-events: none;
+  visibility: hidden;
+  z-index: 998;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.activeBackdrop {
+  visibility: visible;
+}

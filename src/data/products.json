@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "link": "https://drukeduq.pl/product/folia-samoprzylepna",
+        "title": "FOLIA SAMOPRZYLEPNA",
+        "photo": "/images/products/folia.jpg"
+    },
+    {
+        "id": 2,
+        "link": "https://drukeduq.pl/product/banery",
+        "title": "BANERY",
+        "photo": "/images/products/banery.jpg"
+    },
+    {
+        "id": 3,
+        "link": "https://drukeduq.pl/product/fototapety",
+        "title": "FOTOTAPETY",
+        "photo": "/images/products/fototapety.jpg"
+    },
+    {
+        "id": 4,
+        "link": "https://drukeduq.pl/product/rollupy",
+        "title": "ROLLUPY",
+        "photo": "/images/products/rollupy.jpg"
+    },
+    {
+        "id": 5,
+        "link": "https://drukeduq.pl/product/x-baner",
+        "title": "X-BANER",
+        "photo": "/images/products/xbaner.jpg"
+    },
+    {
+        "id": 6,
+        "link": "https://drukeduq.pl/page/kontakt",
+        "title": "SZUKASZ INNEGO PRODUKTU?",
+        "photo": "/images/products/question.jpg"
+    }
+]

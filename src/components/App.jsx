@@ -1,16 +1,21 @@
+import Container from './Container/Container';
+import Header from './Header/Header';
+import Footer from './Footer/Footer';
+import Products from './Products/Products';
+
+import { Suspense } from 'react';
+// import { Routes, Route } from 'react-router-dom';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-      }}
-    >
-      My React template
-    </div>
+    <>
+      <Suspense>
+        <Header />
+        <Container>
+          <Products />
+        </Container>
+        <Footer />
+      </Suspense>
+    </>
   );
 };

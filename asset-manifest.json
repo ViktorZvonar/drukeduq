@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "https://drukeduq.netlify.app/static/css/main.0581b4c8.css",
+    "main.css": "https://drukeduq.netlify.app/static/css/main.5d93588c.css",
     "main.js": "https://drukeduq.netlify.app/static/js/main.4b5e9283.js",
     "static/media/eduq-logo-removebg-preview.png": "https://drukeduq.netlify.app/static/media/eduq-logo-removebg-preview.20e37da42a4696b37fe8.png",
     "index.html": "https://drukeduq.netlify.app/index.html",
-    "main.0581b4c8.css.map": "https://drukeduq.netlify.app/static/css/main.0581b4c8.css.map",
+    "main.5d93588c.css.map": "https://drukeduq.netlify.app/static/css/main.5d93588c.css.map",
     "main.4b5e9283.js.map": "https://drukeduq.netlify.app/static/js/main.4b5e9283.js.map"
   },
   "entrypoints": [
-    "static/css/main.0581b4c8.css",
+    "static/css/main.5d93588c.css",
     "static/js/main.4b5e9283.js"
   ]
 }

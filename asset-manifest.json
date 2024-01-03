@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/my-react-template/static/css/main.7acaea2f.css",
-    "main.js": "/my-react-template/static/js/main.0a75cf25.js",
-    "index.html": "/my-react-template/index.html",
-    "main.7acaea2f.css.map": "/my-react-template/static/css/main.7acaea2f.css.map",
-    "main.0a75cf25.js.map": "/my-react-template/static/js/main.0a75cf25.js.map"
+    "main.css": "http://localhost:3000/static/css/main.0581b4c8.css",
+    "main.js": "http://localhost:3000/static/js/main.e477ca94.js",
+    "static/media/eduq-logo-removebg-preview.png": "http://localhost:3000/static/media/eduq-logo-removebg-preview.20e37da42a4696b37fe8.png",
+    "index.html": "http://localhost:3000/index.html",
+    "main.0581b4c8.css.map": "http://localhost:3000/static/css/main.0581b4c8.css.map",
+    "main.e477ca94.js.map": "http://localhost:3000/static/js/main.e477ca94.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.0a75cf25.js"
+    "static/css/main.0581b4c8.css",
+    "static/js/main.e477ca94.js"
   ]
 }
